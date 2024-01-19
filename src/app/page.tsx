@@ -1,7 +1,12 @@
+import { About } from './components/About'
 
 export default function Home() {
   return (
-    <h2 className="font-bold text-red-700 text-lg
-    ">Marcos</h2>
-  );
+    <div>
+      <div className="bg-[url('/02.png')] bg-cover bg-center bg-no-repeat bg-fixed">
+        <About />
+      </div>
+      {/* <Services /> */}
+    </div>
+  )
 }
