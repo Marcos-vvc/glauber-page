@@ -1,18 +1,11 @@
 import type { Metadata } from 'next'
-import { Figtree, Roboto } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
 import { Header } from './components/Header'
 
-const roboto = Roboto({
+const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['700', '400'],
-  variable: '--font-roboto',
-})
-
-const figtree = Figtree({
-  subsets: ['latin'],
-  weight: ['700', '300'],
-  variable: '--font-figtree',
+  weight: ['300', '700'],
 })
 
 export const metadata: Metadata = {
@@ -26,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${roboto.variable} ${figtree.variable}`}>
-      <body>
+    <html lang="en" className={poppins.className}>
+      <body className="bg-black ">
         <div className="min-h-screen overflow-hidden">
           <Header />
           <main className="max-w-[100vw]">{children}</main>

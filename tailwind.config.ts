@@ -22,8 +22,16 @@ const config = {
         roboto: ['var(--font-roboto)'],
         figtree: ['(--font-figtree)'],
       },
+
+      gridTemplateColumns: {
+        serv: 'repeat(auto-fit, minmax(16.5rem, 1fr));',
+      },
       colors: {
         'gb-25': '#E26408',
+        'gb-50': '#1A1919',
+        'gb-30': '#18191E',
+        'gb-100': '#A6A6A6',
+        'gb-teste': '#5e5e5e',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
