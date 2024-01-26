@@ -1,5 +1,7 @@
 import { About } from './components/About'
+import { Faq } from './components/Faq'
 import { FeedBacks } from './components/FeedBacks'
+import { Footer } from './components/Footer'
 import Intro from './components/Header/Intro'
 import { Payment } from './components/Payment'
 import { Services } from './components/Servicess'
@@ -19,7 +21,15 @@ export default function Home() {
       <div className="border-b-4 border-gb-25 ">
         <Payment />
       </div>
-      <FeedBacks />
+      <div className="border-b-4 border-gb-25">
+        <FeedBacks />
+      </div>
+      <div className="border-b-4 border-gb-25">
+        <Faq />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
