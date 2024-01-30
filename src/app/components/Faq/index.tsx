@@ -31,10 +31,12 @@ export function Faq() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Is it animated?</AccordionTrigger>
+          <AccordionTrigger>
+            Em caso de dúvidas com quem eu falo?
+          </AccordionTrigger>
           <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+            Você terá acesso ao meu WhatsApp pessoal para tirar quaisquer
+            dúvidas sobre o treino.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

@@ -2,12 +2,12 @@ import { Dumbbell, GraduationCap } from 'lucide-react'
 
 export function About() {
   return (
-    <div className="flex flex-col m-auto h-full mb-8">
+    <div className="flex flex-col m-auto h-full mb-6">
       <div className="flex flex-col items-center text-center text-lg text-white space-y-0.5 mt-6 m-auto">
         <h2 className="font-figtree font-bold text-3xl text-gb-25">
           Minha História
         </h2>
-        <div className="lg:flex lg:flex-col lg:items-center lg:justify-center text-justify max-w-[50rem] px-4">
+        <div className="lg:flex lg:flex-col lg:items-center lg:justify-center text-justify max-w-[50rem] p-4">
           <p className="">
             Olá, eu sou Glauber Aguiar, um apaixonado por fitness e saúde. Com
             mais de 8 anos de experiência como personal trainer, estou aqui para

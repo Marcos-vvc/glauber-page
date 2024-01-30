@@ -4,7 +4,7 @@ import { Instagram, Phone } from 'lucide-react'
 
 export function Footer() {
   return (
-    <div className="text-white flex flex-col items-center p-4 lg:w-[50rem] lg:flex lg:flex-row lg:items-center lg:justify-between lg:m-auto">
+    <div className="text-white flex flex-col items-center p-4 lg:w-[70rem] lg:flex lg:flex-row lg:items-center lg:justify-between lg:m-auto">
       <footer>
         <Image src={logo} alt="" className="w-36 h-36 text-white" />
       </footer>

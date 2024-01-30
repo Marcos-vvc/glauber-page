@@ -12,13 +12,13 @@ export default function Home() {
       <div className="border-b-4 border-gb-25">
         <Intro />
       </div>
-      <div className="bg-black w-full flex border-b-4 border-gb-25">
+      <div className="bg-black w-full flex border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat">
         <About />
       </div>
       <div className=" border-b-4 border-gb-25 ">
         <Services />
       </div>
-      <div className="border-b-4 border-gb-25 ">
+      <div className="border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat w-full ">
         <Payment />
       </div>
       <div className="border-b-4 border-gb-25">
@@ -33,4 +33,3 @@ export default function Home() {
     </div>
   )
 }
-// className="bg-[url('/02.png')] bg-cover bg-center bg-no-repeat bg-fixed"
