@@ -13,11 +13,7 @@ export default function Intro() {
         </span>
         <p className="flex text-xs mt-2">Sua melhor versão começa aqui!</p>
       </div>
-      <Image
-        src={about}
-        alt=""
-        className="flex w-72 h-72 rounded border-white border-2 solid mt-6"
-      />
+      <Image src={about} alt="" className="flex w-72 h-80 rounded mt-6" />
     </div>
   )
 }

@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import resu01 from '../../../../public/resu01.jpg'
 import resu02 from '../../../../public/resu02.jpg'
+import resu05 from '../../../../public/resu05.jpg'
+import resu06 from '../../../../public/resu06.jpg'
+import resu07 from '../../../../public/resu07.jpg'
+import resu08 from '../../../../public/resu08.jpg'
 import { Carousell } from '../Carousel'
 
 export function FeedBacks() {
@@ -22,22 +26,22 @@ export function FeedBacks() {
             className="w-40 h-40 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
           />
           <Image
-            src={resu02}
+            src={resu05}
             alt=""
             className="w-40 h-40 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
           />
           <Image
-            src={resu01}
+            src={resu06}
             alt=""
             className="w-40 h-40 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
           />
           <Image
-            src={resu01}
+            src={resu07}
             alt=""
             className="w-40 h-40 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
           />
           <Image
-            src={resu01}
+            src={resu08}
             alt=""
             className="w-40 h-40 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 duration-300"
           />

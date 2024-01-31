@@ -9,25 +9,37 @@ import { Services } from './components/Servicess'
 export default function Home() {
   return (
     <div>
-      <div className="border-b-4 border-gb-25">
+      <div className="border-b-4 border-gb-25" id="intro">
         <Intro />
       </div>
-      <div className="bg-black w-full flex border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat">
+
+      <div
+        className="bg-black w-full flex border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat"
+        id="about"
+      >
         <About />
       </div>
-      <div className=" border-b-4 border-gb-25 ">
+
+      <div className=" border-b-4 border-gb-25 " id="services">
         <Services />
       </div>
-      <div className="border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat w-full ">
+
+      <div
+        className="border-b-4 border-gb-25 bg-[url('/fundo.png')] bg-cover bg-center bg-no-repeat w-full"
+        id="planos"
+      >
         <Payment />
       </div>
-      <div className="border-b-4 border-gb-25">
+
+      <div className="border-b-4 border-gb-25" id="avaliacao">
         <FeedBacks />
       </div>
-      <div className="border-b-4 border-gb-25">
+
+      <div className="border-b-4 border-gb-25" id="faq">
         <Faq />
       </div>
-      <div>
+
+      <div id="contact">
         <Footer />
       </div>
     </div>

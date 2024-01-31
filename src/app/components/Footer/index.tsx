@@ -6,10 +6,10 @@ export function Footer() {
   return (
     <div className="text-white flex flex-col items-center p-4 lg:w-[70rem] lg:flex lg:flex-row lg:items-center lg:justify-between lg:m-auto">
       <footer>
-        <Image src={logo} alt="" className="w-36 h-36 text-white" />
+        <Image src={logo} alt="" className="w-40 h-36 text-white" />
       </footer>
       <div className="flex flex-col gap-4 justify-center items-center mt-8">
-        <h4 className="font-bold text-2xl">Contatos</h4>
+        <h4 className="font-bold text-3xl">Contatos</h4>
         <span className="text-white flex gap-2">
           <Instagram /> @euglauberaguiar
         </span>

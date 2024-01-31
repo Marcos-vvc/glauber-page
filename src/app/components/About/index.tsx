@@ -2,9 +2,9 @@ import { Dumbbell, GraduationCap } from 'lucide-react'
 
 export function About() {
   return (
-    <div className="flex flex-col m-auto h-full mb-6">
+    <div className="flex flex-col m-auto h-full mb-6" id="about">
       <div className="flex flex-col items-center text-center text-lg text-white space-y-0.5 mt-6 m-auto">
-        <h2 className="font-figtree font-bold text-3xl text-gb-25">
+        <h2 className="font-figtree font-bold text-4xl text-gb-25">
           Minha História
         </h2>
         <div className="lg:flex lg:flex-col lg:items-center lg:justify-center text-justify max-w-[50rem] p-4">
