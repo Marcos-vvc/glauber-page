@@ -19,7 +19,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html
+      lang="en"
+      className={`${poppins.className} scrollbar-thumb-gb-25 scrollbar-track-transparent scrollbar-thin overflow-y-scroll`}
+    >
       <body className="bg-black ">
         <div className="min-h-screen overflow-hidden">
           <Sidebar />

@@ -11,7 +11,9 @@ import {
 export function Payment() {
   return (
     <div className="flex flex-col items-center mb-10">
-      <h2 className="mt-10 font-bold text-4xl text-gb-25">Planos de treinos</h2>
+      <h2 className="mt-10 font-bold text-4xl text-gb-25 uppercase">
+        Planos de treinos
+      </h2>
 
       <div className="flex flex-col items-center justify-center lg:flex lg:flex-row w-[70rem] lg:mt-10 text-white gap-6 max-w-[1440px]">
         <div className="flex flex-col gap-4 items-center mt-14">
@@ -20,7 +22,7 @@ export function Payment() {
               <Star size={14} color="white" />
               <h2 className="uppercase">Melhor custo beneficio</h2>
             </div>
-            <div className="">
+            <div className="mb-4">
               <CardItem
                 title={CardCustoBeneficio.title}
                 text={CardCustoBeneficio.text}

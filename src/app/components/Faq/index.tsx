@@ -8,7 +8,7 @@ import {
 export function Faq() {
   return (
     <div className="flex flex-col items-center justify-center p-4 lg:w-[50rem] text-white m-auto">
-      <h2 className="mt-10 font-bold text-4xl text-gb-25 text-center">
+      <h2 className="mt-10 font-bold text-4xl text-gb-25 text-center uppercase">
         Dúvidas Frequentes
       </h2>
 

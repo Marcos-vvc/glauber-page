@@ -12,10 +12,10 @@ import exercicio from '../../../../public/exercicio.svg'
 export function Services() {
   return (
     <div className="flex flex-col h-full p-8">
-      <h2 className="text-gb-25 text-4xl text-center font-bold mt-4 mb-4">
+      <h2 className="text-gb-25 text-4xl text-center font-bold mt-4 mb-4 uppercase">
         Serviços
       </h2>
-      <div className="lg:flex lg:flex-row lg:gap-8 lg:justify-center lg:flex-wrap lg:w-[70rem] lg:m-auto flex flex-col m-auto gap-6">
+      <div className="lg:flex lg:flex-row lg:gap-8 lg:justify-center lg:flex-wrap lg:w-[70rem] lg:m-auto flex flex-col m-auto gap-6 lg:mt-10 lg:mb-10 mt-8">
         <div className="flex flex-col items-center justify-center rounded-3xl h-52 w-56 bg-gb-30 gap-4 text-white shadow-lg shadow-gb-100">
           <Image
             src={hipertrofia}
