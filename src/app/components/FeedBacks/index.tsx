@@ -1,10 +1,3 @@
-// import Image from 'next/image'
-// import resu01 from '../../../../public/resu01.jpg'
-// import resu02 from '../../../../public/resu02.jpg'
-// import resu05 from '../../../../public/resu05.jpg'
-// import resu06 from '../../../../public/resu06.jpg'
-// import resu07 from '../../../../public/resu07.jpg'
-// import resu08 from '../../../../public/resu08.jpg'
 import { Carousell } from '../Carousel'
 
 export function FeedBacks() {
@@ -16,41 +9,16 @@ export function FeedBacks() {
         </h2>
         <div className="lg:grid lg:grid-cols-3 grid grid-cols-2 gap-4 max-w-[1440px] m-auto h-[25rem] lg:w-[32rem] mt-10">
           <div className="bg-[url('/resu01.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu01}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
+
           <div className="bg-[url('/resu02.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu02}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
+
           <div className="bg-[url('/resu05.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu05}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
+
           <div className="bg-[url('/resu06.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu06}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
+
           <div className="bg-[url('/resu07.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu07}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
+
           <div className="bg-[url('/resu08.jpg')] bg-cover bg-center w-40 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"></div>
-          {/* <Image
-            src={resu08}
-            alt=""
-            className="w-48 h-48 hover:-translate-y-1 hover:scale-150 transition ease-in-out delay-150 duration-300"
-          /> */}
         </div>
       </div>
       <div className="flex flex-col items-center justify-center lg:w-[32rem]">
