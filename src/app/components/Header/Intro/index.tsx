@@ -13,7 +13,11 @@ export default function Intro() {
         </span>
         <p className="flex text-xs mt-2">Sua melhor versão começa aqui!</p>
       </div>
-      <Image src={glauber} alt="" className="flex w-[25rem] h-[30rem]" />
+      <Image
+        src={glauber}
+        alt=""
+        className="flex w-[25rem] h-[30rem] pointer-events-none"
+      />
     </div>
   )
 }
