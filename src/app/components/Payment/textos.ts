@@ -1,7 +1,7 @@
 export const CardCustoBeneficio = {
   title: 'Online',
   text: 'Anamnese por vídeo chamada avaliação postural prescrição de treino periodizado acesso ao meu app de treino planilhas de controle de treino análise e correção de EXERCÍCIOS acesso ao meu whatsapp pessoal suporte online.',
-  subTitle: 'ATÉ 12X R$100/MÊS OU 999,00 ( À VISTA )',
+  subTitle: 'ATÉ 12X R$99,99/MÊS OU 999,00 ( À VISTA )',
   link: 'https://sun.eduzz.com/2212008',
 }
 
