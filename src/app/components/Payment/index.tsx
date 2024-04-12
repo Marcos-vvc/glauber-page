@@ -1,4 +1,4 @@
-import { Star } from 'lucide-react'
+// import { Star } from 'lucide-react'
 import { CardItem } from './Card'
 import { Button } from '../Button'
 import {
@@ -18,9 +18,12 @@ export function Payment() {
       <div className="flex flex-col items-center justify-center lg:flex lg:flex-row w-[70rem] lg:mt-10 text-white gap-6 max-w-[1440px]">
         <div className="flex flex-col gap-4 items-center mt-14">
           <div className="scale-110 flex flex-col items-center">
-            <div className="flex flex-row bg-gb-30 rounded-lg items-center justify-center w-60 h-10 gap-2 -m-6 relative">
-              <Star size={14} color="white" />
-              <h2 className="uppercase">Melhor custo beneficio</h2>
+            <div className="flex flex-row bg-gb-30 rounded-lg items-center justify-center w-60 h-16 gap-2 -m-6 relative">
+              {/* <Star size={14} color="white" /> */}
+              <div>
+                <h2 className="uppercase">Melhor custo beneficio</h2>
+                <p className="text-center">(Anual)</p>
+              </div>
             </div>
             <div className="mb-4">
               <CardItem
