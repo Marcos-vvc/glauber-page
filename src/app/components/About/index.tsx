@@ -1,4 +1,4 @@
-import { Dumbbell, GraduationCap } from 'lucide-react'
+import { Dumbbell, GraduationCap } from "lucide-react";
 
 export function About() {
   return (
@@ -34,7 +34,7 @@ export function About() {
 
               <p className="mt-6 text-white w-80">
                 08 anos como Personal Trainer <br /> + 300 Mentorados 100%
-                online (Nacional e internacional){' '}
+                online (Nacional e internacional){" "}
               </p>
             </div>
           </div>
@@ -59,5 +59,5 @@ export function About() {
         </div>
       </div>
     </div>
-  )
+  );
 }

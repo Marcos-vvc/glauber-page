@@ -1,10 +1,10 @@
-import { About } from './components/About'
-import { Faq } from './components/Faq'
-import { FeedBacks } from './components/FeedBacks'
-import { Footer } from './components/Footer'
-import Intro from './components/Header/Intro'
-import { Payment } from './components/Payment'
-import { Services } from './components/Servicess'
+import { About } from './components/About';
+import { Faq } from './components/Faq';
+import { FeedBacks } from './components/FeedBacks';
+import { Footer } from './components/Footer';
+import Intro from './components/Header/Intro';
+import { Payment } from './components/Payment';
+import { Services } from './components/Servicess';
 
 export default function Home() {
   return (
@@ -20,6 +20,10 @@ export default function Home() {
         <About />
       </div>
 
+      <div className="border-b-2 border-gb-25" id="avaliacao">
+        <FeedBacks />
+      </div>
+
       <div className=" border-b-2 border-gb-25 " id="services">
         <Services />
       </div>
@@ -31,10 +35,6 @@ export default function Home() {
         <Payment />
       </div>
 
-      <div className="border-b-2 border-gb-25" id="avaliacao">
-        <FeedBacks />
-      </div>
-
       <div className="border-b-2 border-gb-25" id="faq">
         <Faq />
       </div>
@@ -43,5 +43,5 @@ export default function Home() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

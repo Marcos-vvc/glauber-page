@@ -1,7 +1,9 @@
 {
-  "extends": [
-    "@rocketseat/eslint-config/next",
-    "next/core-web-vitals"
-    ]
-    
+  "extends": ["some-other-config-you-use", "prettier"],
+
+  "plugins": ["prettier", "react", "@typescript-eslit"],
+
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
