@@ -1,6 +1,8 @@
+import React from 'react';
+
 export interface LinkProps {
-  link: string
-  isActive: boolean
+  link: string;
+  isActive: boolean;
 }
 
 export function Button({ link, isActive }: LinkProps) {
@@ -12,5 +14,5 @@ export function Button({ link, isActive }: LinkProps) {
         Assinar
       </a>
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import type { Metadata } from 'next';
+import React from 'react';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 import { Sidebar } from './components/Header';
-import FacebookPixel from './components/Pixel/FacebookPixel';
+import Script from 'next/script';
 import Head from 'next/head';
 
 const poppins = Poppins({
@@ -12,7 +12,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'Glauber Aguiar',
-  description: 'Lading Page Glauber Aguiar',
+  description:
+    'personal trainer, professor, educador físico, treinamento, reabilitação, saúde e bem-estar',
 };
 
 export default function RootLayout({
@@ -28,9 +29,20 @@ export default function RootLayout({
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-
         <link rel="icon" type="image/svg+xml" href="/Logo.png" />
-        <FacebookPixel />
+
+        <Script id="fb-pixel" strategy="lazyOnload">
+          {`!function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', ${process.env.FACEBOOK_PIXEL_ID});
+        fbq('track', 'PageView');`}
+        </Script>
       </Head>
 
       <body className="bg-black ">
@@ -38,6 +50,14 @@ export default function RootLayout({
           <Sidebar />
           <main className="max-w-[100vw]">{children}</main>
         </div>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=784332130439203&ev=PageView&noscript=1"
+          />
+        </noscript>
       </body>
     </html>
   );

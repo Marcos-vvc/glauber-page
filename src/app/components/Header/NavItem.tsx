@@ -1,15 +1,17 @@
+import React from 'react';
+
 export interface NavItemProps {
-  title: string
-  link: string
-  onClick?: () => void
+  title: string;
+  link: string;
+  onClick?: () => void;
 }
 
 export default function NavItem({ title, link, onClick }: NavItemProps) {
   const handleClick = () => {
     if (onClick) {
-      onClick()
+      onClick();
     }
-  }
+  };
   return (
     <a
       href={link}
@@ -20,5 +22,5 @@ export default function NavItem({ title, link, onClick }: NavItemProps) {
         {title}
       </span>
     </a>
-  )
+  );
 }

@@ -1,13 +1,14 @@
-'use client'
-import Image from 'next/image'
-import hipertrofia from '../../../../public/levantador.svg'
-import balança from '../../../../public/balança.svg'
-import telefone from '../../../../public/smartphone.svg'
-import mulher from '../../../../public/mulher.svg'
-import casal from '../../../../public/casal.svg'
-import funcional from '../../../../public/pessoa.svg'
-import lesao from '../../../../public/lesao.svg'
-import exercicio from '../../../../public/exercicio.svg'
+'use client';
+import Image from 'next/image';
+import hipertrofia from '../../../../public/levantador.svg';
+import balança from '../../../../public/balança.svg';
+import telefone from '../../../../public/smartphone.svg';
+import mulher from '../../../../public/mulher.svg';
+import casal from '../../../../public/casal.svg';
+import funcional from '../../../../public/pessoa.svg';
+import lesao from '../../../../public/lesao.svg';
+import exercicio from '../../../../public/exercicio.svg';
+import React from 'react';
 
 export function Services() {
   return (
@@ -91,5 +92,5 @@ export function Services() {
         </div>
       </div>
     </div>
-  )
+  );
 }

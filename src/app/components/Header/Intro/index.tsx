@@ -1,5 +1,6 @@
-import Image from 'next/image'
-import glauber from '../../../../../public/Glauber.png'
+import Image from 'next/image';
+import glauber from '../../../../../public/Glauber.png';
+import React from 'react';
 
 export default function Intro() {
   return (
@@ -19,5 +20,5 @@ export default function Intro() {
         className="flex w-[25rem] h-[30rem] pointer-events-none"
       />
     </div>
-  )
+  );
 }

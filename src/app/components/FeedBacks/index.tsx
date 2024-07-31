@@ -1,4 +1,5 @@
-import { Carousell } from '../Carousel'
+import { Carousell } from '../Carousel';
+import React from 'react';
 
 export function FeedBacks() {
   return (
@@ -28,5 +29,5 @@ export function FeedBacks() {
         <Carousell />
       </div>
     </div>
-  )
+  );
 }

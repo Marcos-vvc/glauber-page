@@ -1,12 +1,13 @@
 // import { Star } from 'lucide-react'
-import { CardItem } from './Card'
-import { Button } from '../Button'
+import React from 'react';
+import { CardItem } from './Card';
+import { Button } from '../Button';
 import {
   CardCustoBeneficio,
   CardMensal,
   CardSemestral,
   CardTrimestral,
-} from './textos'
+} from './textos';
 
 export function Payment() {
   return (
@@ -96,5 +97,5 @@ export function Payment() {
         </div>
       </div>
     </div>
-  )
+  );
 }

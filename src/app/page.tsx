@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import Intro from './components/Header/Intro';
 import { Payment } from './components/Payment';
 import { Services } from './components/Servicess';
+import React from 'react';
 
 export default function Home() {
   return (

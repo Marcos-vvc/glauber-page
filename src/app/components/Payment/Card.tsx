@@ -1,11 +1,12 @@
+import React from 'react';
 export interface CardItemProps {
-  title: string
-  text: string
-  subTitle: string
-  children: React.ReactNode
-  isActive: boolean
-  isOpacity: boolean
-  isTitle: boolean
+  title: string;
+  text: string;
+  subTitle: string;
+  children: React.ReactNode;
+  isActive: boolean;
+  isOpacity: boolean;
+  isTitle: boolean;
 }
 
 export function CardItem({
@@ -17,9 +18,9 @@ export function CardItem({
   isOpacity,
   isTitle,
 }: CardItemProps) {
-  const classBg = isActive ? 'bg-gb-25' : 'bg-gb-30'
-  const classOpacity = isOpacity ? '' : 'bg-opacity-50'
-  const classTitle = isTitle ? 'text-gb-30' : 'text-gb-25'
+  const classBg = isActive ? 'bg-gb-25' : 'bg-gb-30';
+  const classOpacity = isOpacity ? '' : 'bg-opacity-50';
+  const classTitle = isTitle ? 'text-gb-30' : 'text-gb-25';
 
   return (
     <div
@@ -37,5 +38,5 @@ export function CardItem({
 
       {children}
     </div>
-  )
+  );
 }

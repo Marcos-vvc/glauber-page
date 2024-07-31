@@ -1,9 +1,15 @@
 {
-  "extends": ["some-other-config-you-use", "prettier"],
+  "extends": [
+    "some-other-config-you-use",
+    "prettier",
+    "plugin:react/jsx-runtime"
+  ],
 
   "plugins": ["prettier", "react", "@typescript-eslit"],
 
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
   }
 }

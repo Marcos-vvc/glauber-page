@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import logo from '../../../../public/Logo.png'
-import whats from '../../../../public/whatsapp.svg'
-import { Instagram } from 'lucide-react'
+import Image from 'next/image';
+import logo from '../../../../public/Logo.png';
+import whats from '../../../../public/whatsapp.svg';
+import React from 'react';
+
+import { Instagram } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -34,5 +36,5 @@ export function Footer() {
         </a>
       </div>
     </div>
-  )
+  );
 }
